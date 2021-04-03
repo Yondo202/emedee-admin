@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "name": "home",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "Layout": {
+      "type": "dynamiczone",
+      "components": [
+        "components.video",
+        "components.image",
+        "components.twosidenews"
+      ]
+    }
+  }
+}

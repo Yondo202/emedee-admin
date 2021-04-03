@@ -1,0 +1,40 @@
+{
+  "name": "E-medee",
+  "private": true,
+  "version": "0.1.0",
+  "description": "E-medee backend",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^27.0.0",
+    "@ckeditor/ckeditor5-react": "^3.0.2",
+    "slugify": "^1.4.7",
+    "strapi": "3.5.3",
+    "strapi-admin": "3.5.3",
+    "strapi-connector-mongoose": "3.5.3",
+    "strapi-plugin-content-manager": "3.5.3",
+    "strapi-plugin-content-type-builder": "3.5.3",
+    "strapi-plugin-email": "3.5.3",
+    "strapi-plugin-graphql": "^3.5.3",
+    "strapi-plugin-upload": "3.5.3",
+    "strapi-plugin-users-permissions": "3.5.3",
+    "strapi-provider-upload-cloudinary": "^3.5.4",
+    "strapi-utils": "3.5.3"
+  },
+  "author": {
+    "name": "Yondomi"
+  },
+  "strapi": {
+    "uuid": "71da14c0-23e6-4ac9-815e-c0c1f391adc6"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": "^6.0.0"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_menu_menufooters",
+  "info": {
+    "name": "Menufooter",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "string"
+    },
+    "Slug": {
+      "type": "string"
+    }
+  }
+}

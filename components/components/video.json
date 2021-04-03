@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_components_videos",
+  "info": {
+    "name": "Video",
+    "icon": "photo-video"
+  },
+  "options": {},
+  "attributes": {
+    "Video": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
