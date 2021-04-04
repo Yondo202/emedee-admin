@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_menu_helper_menus",
+  "info": {
+    "name": "HelperMenu",
+    "icon": "equals",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_menu_header_sliders",
+  "info": {
+    "name": "HeaderSlider",
+    "icon": "fast-forward",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Link": {
+      "type": "string"
+    },
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

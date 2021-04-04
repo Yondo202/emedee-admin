@@ -28,6 +28,16 @@
     },
     "Copyright": {
       "type": "richtext"
+    },
+    "HeaderSlider": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.header-slider"
+    },
+    "HelperMenu": {
+      "type": "component",
+      "repeatable": false,
+      "component": "menu.helper-menu"
     }
   }
 }
