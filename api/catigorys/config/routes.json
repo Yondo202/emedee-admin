@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/catigorys",
+      "handler": "catigorys.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/catigorys/count",
+      "handler": "catigorys.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/catigorys/:id",
+      "handler": "catigorys.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/catigorys",
+      "handler": "catigorys.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/catigorys/:id",
+      "handler": "catigorys.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/catigorys/:id",
+      "handler": "catigorys.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

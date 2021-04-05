@@ -36,6 +36,16 @@
     "count": {
       "type": "integer",
       "default": 0
+    },
+    "catigory": {
+      "model": "catigorys",
+      "via": "posts"
+    },
+    "Layout": {
+      "type": "dynamiczone",
+      "components": [
+        "components.othernewsbig"
+      ]
     }
   }
 }

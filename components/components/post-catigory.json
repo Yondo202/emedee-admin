@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_components_post_catigories",
+  "info": {
+    "name": "PostCatigory",
+    "icon": "angle-up"
+  },
+  "options": {},
+  "attributes": {
+    "catigories": {
+      "collection": "catigorys"
+    }
+  }
+}
