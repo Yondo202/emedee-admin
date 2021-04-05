@@ -16,7 +16,8 @@
       "components": [
         "components.video",
         "components.image",
-        "components.twosidenews"
+        "components.twosidenews",
+        "components.othernewsbig"
       ]
     }
   }

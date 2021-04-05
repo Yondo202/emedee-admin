@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_components_othernewsbigs",
+  "info": {
+    "name": "Othernewsbig",
+    "icon": "sort-amount-up",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
