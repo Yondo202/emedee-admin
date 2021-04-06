@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_components_othernewssmalls",
+  "info": {
+    "name": "Othernewssmall",
+    "icon": "cogs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "secotor": {
+      "model": "secotor"
+    },
+    "catigorys": {
+      "collection": "catigorys"
+    }
+  }
+}

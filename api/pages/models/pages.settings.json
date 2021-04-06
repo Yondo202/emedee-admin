@@ -22,7 +22,8 @@
       "components": [
         "components.image",
         "components.video",
-        "components.post-catigory"
+        "components.post-catigory",
+        "components.home-top"
       ]
     }
   }

@@ -46,6 +46,10 @@
       "components": [
         "components.othernewsbig"
       ]
+    },
+    "secotor": {
+      "via": "posts",
+      "model": "secotor"
     }
   }
 }

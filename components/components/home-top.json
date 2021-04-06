@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_components_home_tops",
+  "info": {
+    "name": "HomeTop",
+    "icon": "bomb",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Othernewsbig": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.othernewsbig",
+      "required": true
+    },
+    "Mainnews": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.mainnews"
+    },
+    "Othernewssmall": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.othernewssmall"
+    }
+  }
+}

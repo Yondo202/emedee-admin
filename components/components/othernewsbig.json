@@ -13,6 +13,9 @@
     },
     "catigories": {
       "collection": "catigorys"
+    },
+    "secotor": {
+      "model": "secotor"
     }
   }
 }

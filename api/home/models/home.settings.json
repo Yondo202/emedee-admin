@@ -17,8 +17,11 @@
         "components.video",
         "components.image",
         "components.twosidenews",
+        "components.home-top",
+        "components.mainnews",
         "components.othernewsbig",
-        "components.post-catigory"
+        "components.post-catigory",
+        "components.othernewssmall"
       ]
     }
   }
