@@ -12,10 +12,6 @@
   "attributes": {
     "name": {
       "type": "string"
-    },
-    "posts": {
-      "collection": "posts",
-      "via": "secotor"
     }
   }
 }

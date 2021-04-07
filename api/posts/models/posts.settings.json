@@ -11,18 +11,17 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "Name": {
+    "name": {
       "type": "string"
     },
-    "Content": {
+    "description": {
       "type": "richtext"
     },
     "Slug": {
       "type": "uid",
-      "targetField": "Name",
       "required": true
     },
-    "Thumb": {
+    "thumb": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -41,15 +40,17 @@
       "model": "catigorys",
       "via": "posts"
     },
-    "Layout": {
-      "type": "dynamiczone",
-      "components": [
-        "components.othernewsbig"
-      ]
+    "small": {
+      "type": "boolean",
+      "default": false
     },
-    "secotor": {
-      "via": "posts",
-      "model": "secotor"
+    "medium": {
+      "type": "boolean",
+      "default": false
+    },
+    "big": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
