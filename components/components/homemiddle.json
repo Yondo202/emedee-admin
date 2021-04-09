@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_components_homemiddles",
+  "info": {
+    "name": "Homemiddle",
+    "icon": "chevron-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "catigory": {
+      "model": "catigorys"
+    }
+  }
+}

@@ -14,14 +14,9 @@
     "Layout": {
       "type": "dynamiczone",
       "components": [
-        "components.video",
-        "components.image",
-        "components.twosidenews",
-        "components.home-top",
-        "components.mainnews",
-        "components.othernewsbig",
-        "components.post-catigory",
-        "components.othernewssmall"
+        "components.main-home",
+        "components.homemiddle",
+        "components.homemiddletwo"
       ]
     }
   }

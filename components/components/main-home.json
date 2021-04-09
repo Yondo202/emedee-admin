@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_components_main_homes",
+  "info": {
+    "name": "MainHome",
+    "icon": "asterisk"
+  },
+  "options": {},
+  "attributes": {
+    "secotors": {
+      "collection": "secotor"
+    }
+  }
+}

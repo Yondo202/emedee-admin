@@ -19,7 +19,8 @@
     },
     "Slug": {
       "type": "uid",
-      "required": true
+      "required": true,
+      "targetField": "name"
     },
     "thumb": {
       "model": "file",
@@ -37,8 +38,8 @@
       "default": 0
     },
     "catigory": {
-      "model": "catigorys",
-      "via": "posts"
+      "via": "posts",
+      "model": "catigorys"
     },
     "small": {
       "type": "boolean",
@@ -51,6 +52,13 @@
     "big": {
       "type": "boolean",
       "default": false
+    },
+    "secotor": {
+      "model": "secotor",
+      "via": "posts"
+    },
+    "news_catigory": {
+      "type": "string"
     }
   }
 }

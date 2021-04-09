@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_components_homemiddletwos",
+  "info": {
+    "name": "Homemiddletwo",
+    "icon": "chevron-circle-left"
+  },
+  "options": {},
+  "attributes": {
+    "catigory": {
+      "model": "catigorys"
+    }
+  }
+}

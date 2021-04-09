@@ -15,8 +15,11 @@
       "type": "string"
     },
     "posts": {
-      "via": "catigory",
-      "collection": "posts"
+      "collection": "posts",
+      "via": "catigory"
+    },
+    "key": {
+      "type": "string"
     }
   }
 }
