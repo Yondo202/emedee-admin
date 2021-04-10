@@ -2,22 +2,15 @@
   "collectionName": "components_menu_social_links",
   "info": {
     "name": "Social_links",
-    "icon": "align-right"
+    "icon": "align-right",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Icon": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
     "Link": {
+      "type": "string"
+    },
+    "name": {
       "type": "string"
     }
   }

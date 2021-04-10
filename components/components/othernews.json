@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_components_othernews",
+  "info": {
+    "name": "Othernews",
+    "icon": "arrows-alt-h"
+  },
+  "options": {},
+  "attributes": {
+    "catigory": {
+      "model": "catigorys"
+    }
+  }
+}

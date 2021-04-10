@@ -16,7 +16,8 @@
       "components": [
         "components.main-home",
         "components.homemiddle",
-        "components.homemiddletwo"
+        "components.homemiddletwo",
+        "components.othernews"
       ]
     }
   }
