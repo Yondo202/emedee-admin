@@ -38,8 +38,8 @@
       "default": 0
     },
     "catigory": {
-      "via": "posts",
-      "model": "catigorys"
+      "model": "catigorys",
+      "via": "posts"
     },
     "small": {
       "type": "boolean",
@@ -59,6 +59,16 @@
     },
     "news_catigory": {
       "type": "string"
+    },
+    "newsperson": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "enumeration",
+      "enum": [
+        "video",
+        "image"
+      ]
     }
   }
 }

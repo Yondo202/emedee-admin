@@ -15,8 +15,8 @@
       "type": "string"
     },
     "posts": {
-      "collection": "posts",
-      "via": "catigory"
+      "via": "catigory",
+      "collection": "posts"
     },
     "key": {
       "type": "string"
