@@ -17,7 +17,8 @@
         "components.main-home",
         "components.homemiddle",
         "components.homemiddletwo",
-        "components.othernews"
+        "components.othernews",
+        "components.homevideo"
       ]
     }
   }

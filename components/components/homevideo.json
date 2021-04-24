@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_components_homevideos",
+  "info": {
+    "name": "Homevideo",
+    "icon": "certificate"
+  },
+  "options": {},
+  "attributes": {
+    "catigory": {
+      "model": "catigorys"
+    }
+  }
+}

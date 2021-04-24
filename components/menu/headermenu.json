@@ -13,10 +13,8 @@
     "Slug": {
       "type": "string"
     },
-    "Submenu": {
-      "type": "component",
-      "repeatable": true,
-      "component": "menu.submenu"
+    "catigory": {
+      "model": "catigorys"
     }
   }
 }
