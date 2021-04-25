@@ -11,11 +11,6 @@
     "draftAndPublish": false
   },
   "attributes": {
-    "Menuheader": {
-      "type": "component",
-      "repeatable": true,
-      "component": "menu.headermenu"
-    },
     "Menufooter": {
       "type": "component",
       "repeatable": true,
@@ -38,6 +33,11 @@
       "type": "component",
       "repeatable": false,
       "component": "menu.helper-menu"
+    },
+    "Menuhead": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.menuhead"
     }
   }
 }

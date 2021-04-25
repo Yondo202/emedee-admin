@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_menu_menuheaders",
+  "info": {
+    "name": "Menuheader",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "string"
+    },
+    "Slug": {
+      "type": "string"
+    },
+    "catigory": {
+      "model": "catigorys"
+    }
+  }
+}
